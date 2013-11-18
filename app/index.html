@@ -26,9 +26,22 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="container">
+      
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="#/">Kinghub</a>
+          <ul class="nav">
+            <li><a href="#/popular">Popular</a></li>
+            <li><a href="#/everyone">Everyone</a></li>
+            <li><a href="#/debuts">Debuts</a></li>
+          </ul>
+        </div>
+      </div>
+      <div ng-view></div>
 
-    <div><i class="fa fa-code-fork"></i></div>
+
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>

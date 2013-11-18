@@ -30,3 +30,45 @@ body {
     line-height: 1;
     letter-spacing: -1px;
 }
+
+.navbar {
+  margin-top: 20px;
+}
+
+.shot .title {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.stats {
+  background: #CCC;
+  opacity: 0.5;
+  text-align: center;
+  padding: 4px 0;
+  .stat {
+    padding: 5px;
+  }
+}
+
+.shot_image {
+  width: 100%;
+}
+
+.shot_header {
+  margin-bottom: 20px;
+  h1 {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 5px;
+  }
+  img {
+    height: 60px;
+  }
+}
+
+.comment img {
+  height: 60px;
+  width: 60px;
+}
